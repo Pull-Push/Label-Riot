@@ -8,8 +8,8 @@ html{
 img{
     display: block;
     margin: 0 auto;
-    height: 100%;
-    width: 100%;
+    height: 95%;
+    width: 95%;
     object-fit: contain;
 }
 body{
@@ -21,13 +21,13 @@ body{
 }
 
 
-h1,h4{
+h1,h5{
 text-align: center;
 font-family: 'Jost', sans-serif;
 color: antiquewhite;
 background-color: black;
 }
-h4{
+h5{
     font-family: 'Nunito', sans-serif;
 }
 button{

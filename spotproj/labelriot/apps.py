@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class LabelhuntConfig(AppConfig):
+class LabelriotConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'labelhunt'
+    name = 'labelriot'
