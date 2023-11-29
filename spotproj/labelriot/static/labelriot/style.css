@@ -13,8 +13,8 @@ img{
 }
 #avatar img {
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
 }
 body{
@@ -52,4 +52,11 @@ button{
     display: block;
     border-radius: 15px;
     font-family: 'Nunito', sans-serif;
+}
+/* #dropdown{
+    color: aliceblue;
+} */
+
+.navbar-brand{
+    font-size: x-large;
 }

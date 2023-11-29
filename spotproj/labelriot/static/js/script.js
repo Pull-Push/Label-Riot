@@ -78,7 +78,7 @@ async function fetchProfile(token) {
 function populateUI(profile) {
     document.getElementById("displayName").innerText = profile.display_name;
     if (profile.images[0]) {
-        const profileImage = new Image(100, 100);
+        const profileImage = new Image(30, 30);
         profileImage.src = profile.images[0].url;
         document.getElementById("avatar").appendChild(profileImage);
         document.getElementById("imgUrl").innerText = profile.images[0].url;
